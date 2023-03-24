@@ -1,0 +1,4 @@
+24/3
+börjat på projektplan, skrivit syfte och inledning
+skapat filer som index, css och js filer.
+skapat repo och loggbok
