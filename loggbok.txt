@@ -2,3 +2,8 @@
 börjat på projektplan, skrivit syfte och inledning
 skapat filer som index, css och js filer.
 skapat repo och loggbok
+
+30/3
+skrivit klart projektplanen och laddat upp till github
+research och inspiration från stora schaksidor och tidigare erfarenhet.
+planerat använda bootstrap till nav bar. 
