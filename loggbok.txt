@@ -7,3 +7,8 @@ skapat repo och loggbok
 skrivit klart projektplanen och laddat upp till github
 research och inspiration från stora schaksidor och tidigare erfarenhet.
 planerat använda bootstrap till nav bar. 
+
+14/4
+lämnat projektplan
+skapat figma konto
+börjat grafiskt.
