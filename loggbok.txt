@@ -12,3 +12,7 @@ planerat använda bootstrap till nav bar.
 lämnat projektplan
 skapat figma konto
 börjat grafiskt.
+
+18/4
+Fixat o trixat i figma, Går bajs. Fråga Andrew om hjälp på torsdag
+i princip klar med skissen för index sidan i datorskärms storlek.
