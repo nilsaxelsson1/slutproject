@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.gridContainer{
+    display: grid;
+    background-color: darkgrey;
+    grid-template-areas: "nav"
+    "header"
+    "article"
+    "aside"
+    "footer";
+    height:100vh;
+    gap: 3ch;
+}
+nav{
+    grid-area: nav; 
+    background-color: red;
+    width: 1fr;
+    height:1fr
+}
+header{
+    grid-area: header;
+    background-color: green;
+    width: 1fr;
+    height:1fr
+}
+article{
+    grid-area: article;
+    background-color: darkgreen;
+    width: 1fr;
+    height:1fr
+}
+aside{
+    grid-area: aside;
+    background-color:aqua;
+    width: 1fr;
+    height:1fr
+}
+footer{
+    grid-area: footer;
+    background-color:blue ;
+    width: 1fr;
+    height:1fr
+}

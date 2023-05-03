@@ -20,3 +20,7 @@ i princip klar med skissen för index sidan i datorskärms storlek.
 20/4
 Bytt till paint för skisserna.
 gjort 6/9 st skisser
+
+3/5
+börjat koda index sidan. lagt upp grid container och dess innehåll men inte mycket mer. planerar att göra egen nav som kommer se likadan ut på alla sidor samt använda ett css-
+bibliotek för en footer som ser likadan ut på alla sidor.
