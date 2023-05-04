@@ -24,3 +24,7 @@ gjort 6/9 st skisser
 3/5
 börjat koda index sidan. lagt upp grid container och dess innehåll men inte mycket mer. planerar att göra egen nav som kommer se likadan ut på alla sidor samt använda ett css-
 bibliotek för en footer som ser likadan ut på alla sidor.
+
+4/5
+typ klar med strukturen för index sidan i datorskärmsstorlek.
+ska använda js till darkmode toggle knapp. Använd mycket w3schools!!!
