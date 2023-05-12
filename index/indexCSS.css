@@ -1,6 +1,6 @@
-body{
-    margin:0;
-    padding:0;
+*{
+    margin:0px;
+    padding:0px;
     box-sizing: border-box;
 }
 
@@ -20,16 +20,55 @@ body{
 
 nav{
     grid-area: nav; 
-    background-color: blue;
+    background-color:blue;
     height:10vh;
+    
 }
 ul{
     list-style-type:none;
     position:fixed;
+    display: inline-block;
+    height:inherit;
+    background-color: black;
+    width:100vw;
+
 }
+li:last-child{
+float:right;
+border-right:none;
+border-left:1px solid #bbb;
+}
+
 li{
 float:left;
+background-color: green;
+height:inherit;
+width:10vw;
+border-right: 1px solid #bbb;
 }
+.dropdown{
+    display: inline-block;
+    position: relative;
+
+}
+.dropdown-content{
+    z-index: 1;
+    display:none;
+    position: absolute;
+    background-color: #bbb;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width:160px;
+
+}
+.dropbtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 
 
@@ -38,6 +77,7 @@ header{
     height:10vh;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 article{
     grid-area: article;
