@@ -6,42 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="indexCSS.css">
+    
+     
 </head>
 <body>
     <div class="gridContainer">
         <nav> 
             <ul>
-                <li>Logga</li>
+                <li> <img src="../bilder/logo.png"></li>
                 <li> <a href="index.html">Hem</a></li>
                 <li class="dropdown"> <button class="dropbtn"> Studier </button>
                     <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <a href="../italian/italian.html">Italian</a>
+                        <a href="../ruylopez/ruylopez.html">Ruy Lopez</a>
+                        <a href="../regler/regler.html">Regler</a>
                       </div>
                 </li>
 
-                <li> Darkmode/Lightmode</li>
+                <li> <button onclick="myFunction()"> Toggle dark mode </button></li>
                 
             </ul>    
         
         </nav>
-        <header> 
-            <h1>Axelsson's Schack Studier</h1>
+        <header id="rubrik"> 
+            <h1>Axelssons Schack Studier</h1>
 
         </header>
         <article class="flexContainer"> 
-            <div class="one"> 1 </div>
-            <div class="one"> 2 </div>
-            <div class="one"> 3 </div>
-
+            <div class="study"> <a href="../italian/italian.html"> <img src="../bilder/italianIndex.png" alt="Italian"> </a> </div>
+            <div class="study"> <a href="../ruylopez/ruylopez.html"> <img src="../bilder/ruylopezIndex.png" alt="Ruy Lopez"> </a> </div>
+            <div class="study"> <a href="../regler/regler.html"> <img src="../bilder/schackIndex.png" alt="Schackbräde"> </a> </div>
+            
         </article>
         <aside> Aside </aside>
-        <footer> Footer </footer>
+        <footer>
+            Footer
+        
+        
+        
+        
+        </footer>
 
+
+
+
+
+
+
+        <script src="indexJS.js"></script>
     </div>
 
 
     
 </body>
+
+
+
 </html>
