@@ -155,4 +155,7 @@ footer{
     article p{
         display:none;
     }
+    .bild {
+        margin-left:auto; margin-right: auto;
+    }
   }
