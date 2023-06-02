@@ -6,15 +6,17 @@
     color:black;
     font-family: 'Times New Roman', Times, serif;
 }
-
+body{
+    width: 100vw;
+}
 
 .gridContainer{
     display: grid;
     background-color: white;
-    grid-template-areas: "nav"
+    grid-template-areas: 
+    "nav"
     "header"
     "article"
-    "aside"
     "footer";
     
     
@@ -112,75 +114,45 @@ header{
     grid-area: header;
     height:100px;
     display:flex;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     
 }
+
 article{
     grid-area: article;
-    /* background-color: darkgreen; */
-    height:550px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-aside{
-    grid-area: aside;
-    /* background-color:aqua; */
-    height:150px;
+.bild{
+    margin-left:100px;
+    width:500px; height: 500px;
 }
+article p {
+    margin-left:100px;
+    margin-right: 100px;
+}
+
+
+
+
 footer{
     grid-area: footer;
-    /* background-color:blue ; */
     height:100px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .social-icons{
     margin-left:10px;
     
 }
-.flexContainer{
-    display: flex;
-    /* background-color: darkgrey; */
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-.study{
-width: 400px;
-height:400px;
-/* background-color: pink; */
-margin-top:50px;
-}
-h2{
-display: flex;
-justify-content:center;
-align-items: center;
-}
-.forklaraStudier{
-    font-size: 1.3rem;
-    margin-left:10vw;
-    margin-right:10vw;
-    margin-top:2vh;
-}
 
-@media only screen and (max-width: 1201px) {
-    .flexContainer{
-        flex-direction: column;
-        justify-content: center;
-    }
-    article{
-        height: auto;
-        
-    }
-    .study{
-        margin-left:auto;
-        margin-right:auto;
-    }
-    aside{
-        margin-top:20px;
-    }
-    footer{
-        margin-top:20px;
+@media only screen and (max-width: 1001px) {
+    article p{
+        display:none;
     }
   }
