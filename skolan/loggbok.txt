@@ -28,3 +28,7 @@ bibliotek för en footer som ser likadan ut på alla sidor.
 4/5
 typ klar med strukturen för index sidan i datorskärmsstorlek.
 ska använda js till darkmode toggle knapp. Använd mycket w3schools!!!
+
+2/6
+Äntligen färdig, har inte använt någon JS men antar att min dropdown menu räknas om jag tolkar betygskriteriena rätt.
+
